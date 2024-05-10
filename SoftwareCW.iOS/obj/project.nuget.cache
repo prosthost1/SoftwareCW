@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bhdf93NZsmQPrRMpGXQRDMX6qNgXgJOGxfNum1xKLDb8Nr7XcYXdDObNsvhxU8C8MUlwUXAo2LQx2q+T0A3uzg==",
+  "success": true,
+  "projectFilePath": "/Users/artiejoe/Projects/SoftwareCW/SoftwareCW/SoftwareCW.iOS/SoftwareCW.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/artiejoe/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/artiejoe/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/artiejoe/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/artiejoe/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

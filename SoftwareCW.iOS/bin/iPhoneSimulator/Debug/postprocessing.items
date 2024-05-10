@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="SoftwareCW.iOS.app/SoftwareCW.iOS">
+      <BCSymbolMapName>SoftwareCW.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>SoftwareCW.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/artiejoe/Projects/SoftwareCW/SoftwareCW/SoftwareCW.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
+      <DSymName>SoftwareCW.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/artiejoe/Projects/SoftwareCW/SoftwareCW/SoftwareCW.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

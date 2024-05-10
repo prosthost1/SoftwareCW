@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SoftwareCW.Views.EvalutionPage">
+    <StackLayout Padding="10">
+        <Label Text="Paired Comparisons:" FontAttributes="Bold" HorizontalOptions="Center"/>
+        <Label Text="Use switches to indicate pairwise preferences. Select the preference strength from the picker." HorizontalOptions="Center" HorizontalTextAlignment="Center" Padding="30, 0"/>
+        <ListView x:Name="preferencesListView" ItemsSource="{Binding Preferences}" RowHeight="150" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" Padding="10">
+                                <Label Text="{Binding Item1}" WidthRequest="190"/>
+                                <Switch IsToggled="{Binding IsItem2Preferred}" />
+                                <Label Text="{Binding Item2}" WidthRequest="190"/>
+                            </StackLayout>
+                            <Picker Title="Select preference strength" SelectedIndex="{Binding Strength, Mode=TwoWay}"  HorizontalOptions="CenterAndExpand">
+                                <Picker.Items>
+                                    <x:String>1: Equal preference</x:String>
+                                    <x:String>2</x:String>
+                                    <x:String>3: Moderate preference</x:String>
+                                    <x:String>4</x:String>
+                                    <x:String>5: Strong preference</x:String>
+                                    <x:String>6</x:String>
+                                    <x:String>7: Very strong preference</x:String>
+                                    <x:String>8</x:String>
+                                    <x:String>9: Extreme preference</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="saveButton" Text="SAVE" BackgroundColor="Orange" Margin="10" Clicked="saveButton_Clicked"/>
+    </StackLayout>
+</ContentPage>
+

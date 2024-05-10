@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "e+pwahHjB52d6Ex1vwZ4pTZtjLj/RZgFFLGGxe08+gDk2RKl+OcAen+WdGuM00wXMPzl7B6dgJ9JxVw9oFcYQA==",
+  "success": true,
+  "projectFilePath": "/Users/artiejoe/Projects/SoftwareCW/SoftwareCW/SoftwareCW/SoftwareCW.csproj",
+  "expectedPackageFiles": [
+    "/Users/artiejoe/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/artiejoe/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/artiejoe/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/artiejoe/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/artiejoe/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/artiejoe/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
